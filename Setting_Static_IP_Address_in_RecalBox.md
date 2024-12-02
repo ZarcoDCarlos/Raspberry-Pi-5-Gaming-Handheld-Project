@@ -2,8 +2,11 @@
 
 ## Table of Contents
 A. Why set a Static IP Address?
+
 B. Prerequisites
+
 C. Steps
+
 D. Conclusion
 
 ## A. Why set a Static IP Address?
