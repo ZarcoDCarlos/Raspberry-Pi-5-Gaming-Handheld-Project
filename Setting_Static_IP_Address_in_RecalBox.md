@@ -36,7 +36,7 @@ Now that you have SSH'd into the Pi, find the following Network configuration de
 - **IP Address**: A unique IP address within the range of your network.
 - **Netmask**: A number that separates your IP Address into two parts: the network and the hosts on that network.
 - **Gateway**: IP address of your router. This address serves as an access point or gateway to other networks.
-- **Nameservers**: These are the IP addresses of the DNS servers that you want to use.
+- [**Nameservers**](https://kinsta.com/knowledgebase/what-is-a-nameserver/): These are the IP addresses of the DNS servers that you want to use.
                 Nameserver contains domain names and their corresponding IP address.
 
 To locate these Config Details do the following:
@@ -47,6 +47,7 @@ ifconfig
 ```
 Short for 'interface configuration', this command is for configuring network interfaces. It outputs network information.
 Particularly the Netmask under the wlan0 section.
+
 
 For the **Gateway**, type:
 ```
@@ -61,6 +62,7 @@ cat /etc/resolv.conf
 ```
 This command displays the contents of the DNS configuration file. These are the servers your Pi uses to translate domains
 to IP addresses. 
+
 
 With all of this information, we can now edit the Recalbox Configuration file and adjust the network parameters with the
 information that is found above.
@@ -91,9 +93,14 @@ Note the Gateway and IP address are different. The Gateway is the router's IP ad
 identical. This is the IP Address that the PI will use. I used the IP address from Recalbox's Network settings page here.
 This will be the **Static IP Address** used for SSH in the future if done successfully. **Make note of it.**
 
+Note that for the Nameservers section, you can add multiple. I added the one found using the steps above as well as '8.8.8.8' since that is a public nameserver from Google's DNS service. 
+
 Type:
 ```
 reboot
 ```
 Hit enter, and check to see either in Recalbox Network settings if the newly assigned Static IP Address stays the same,
 or by successfully SSH'ing into the PI by using the IP Address. 
+
+##D. Conclusion
+Now, you should be able to login to your Raspberry Pi with Recalbox OS easily via SSH and the Static IP Address that has been configured. Happy Gaming!
