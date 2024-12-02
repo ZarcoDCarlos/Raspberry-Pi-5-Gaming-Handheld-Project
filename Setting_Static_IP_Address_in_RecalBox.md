@@ -102,5 +102,5 @@ reboot
 Hit enter, and check to see either in Recalbox Network settings if the newly assigned Static IP Address stays the same,
 or by successfully SSH'ing into the PI by using the IP Address. 
 
-##D. Conclusion
-Now, you should be able to login to your Raspberry Pi with Recalbox OS easily via SSH and the Static IP Address that has been configured. Happy Gaming!
+## D. Conclusion
+Now, you should be able to log in to your Raspberry Pi with Recalbox OS easily via SSH and the Static IP Address that has been configured. Happy Gaming!
