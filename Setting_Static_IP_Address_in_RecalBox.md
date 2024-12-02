@@ -34,7 +34,7 @@ cannot be used as the user is already a superuser or admin.
 ### Network Configuration Details
 Now that you have SSH'd into the Pi, find the following Network configuration details:
 - **IP Address**: A unique IP address within the range of your network.
-- **Netmask**: A number that separates your IP Address into two parts: the network and the hosts on that network.
+- [**Netmask**](https://wiki.teltonika-networks.com/view/What_is_a_Netmask%3F#:~:text=A%20Netmask%20is%20a%2032,is%20the%20assigned%20network%20address.): A number that separates your IP Address into two parts: the network and the hosts on that network.
 - **Gateway**: IP address of your router. This address serves as an access point or gateway to other networks.
 - [**Nameservers**](https://kinsta.com/knowledgebase/what-is-a-nameserver/): These are the IP addresses of the DNS servers that you want to use.
                 Nameserver contains domain names and their corresponding IP address.
