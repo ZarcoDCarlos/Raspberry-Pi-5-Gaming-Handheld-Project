@@ -48,6 +48,17 @@ ifconfig
 Short for 'interface configuration', this command is for configuring network interfaces. It outputs network information.
 Particularly the Netmask under the wlan0 section.
 
+  The following is a portion of an example output:
+  ```
+wlan0     Link encap:Ethernet  HWaddr 00:1A:2B:3C:4D:6F
+          inet addr:192.168.1.11  Bcast:192.168.1.255  Mask:255.255.255.0
+          inet6 addr: fe80::21a:2bff:fe3c:4d6f/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:1048576 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1048576 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:104857600 (100.0 MB)  TX bytes:104857600 (100.0 MB)
+  ```
 
 For the **Gateway**, type:
 ```
