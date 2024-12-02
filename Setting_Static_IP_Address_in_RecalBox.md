@@ -18,6 +18,7 @@ D. Conclusion
 - Raspberry Pi with a working image of RecalBox OS installed
 - RecalBox should be connected to your network
 - Program like Putty installed on your computer to SSH into your Raspberry Pi
+- Knowledge on how to SSH into a Raspberry Pi
 
 ## C. Steps
 
