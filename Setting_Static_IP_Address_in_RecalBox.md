@@ -33,10 +33,10 @@ cannot be used as the user is already a superuser or admin.
 
 ### Network Configuration Details
 Now that you have SSH'd into the Pi, find the following Network configuration details:
-- IP Address: A unique IP address within the range of your network.
-- Netmask: A number that separates your IP Address into two parts: the network and the hosts on that network.
-- Gateway: IP address of your router. This address serves as an access point or gateway to other networks.
-- Nameservers: These are the IP addresses of the DNS servers that you want to use.
+- **IP Address**: A unique IP address within the range of your network.
+- **Netmask**: A number that separates your IP Address into two parts: the network and the hosts on that network.
+- **Gateway**: IP address of your router. This address serves as an access point or gateway to other networks.
+- **Nameservers**: These are the IP addresses of the DNS servers that you want to use.
                 Nameserver contains domain names and their corresponding IP address.
 
 To locate these Config Details do the following:
